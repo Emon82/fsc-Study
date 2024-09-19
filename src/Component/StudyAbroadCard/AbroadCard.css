@@ -1,0 +1,33 @@
+/* Set both image and card container to the same height and width */
+.img-hover-zoom {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-hover-zoom img {
+  height: 100%;
+  width: 100%;
+  transition: transform 0.9s ease;
+  object-fit: cover; /* Ensures image scales properly inside the container */
+}
+
+/* Apply zoom and grayscale effect */
+.img-hover-zoom--colorize img {
+  filter: grayscale(100%);
+  transition: transform 0.5s, filter 1.5s ease-in-out;
+}
+
+.img-hover-zoom--colorize:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+/* Set card height and width to be consistent with image */
+.card {
+  height: auto;
+  width: 300px;
+}

@@ -1,0 +1,129 @@
+/* Carosul.css */
+.carousel {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.carousel-slide.fade-in {
+  opacity: 1;
+  z-index: 1;
+}
+
+.carousel-slide.fade-out {
+  opacity: 0;
+  z-index: 0;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 10%;
+  left: 20px;
+  color: white;
+  z-index: 2;
+  padding: 20px;
+}
+
+/* Carosul.css */
+
+/* Move the text to the top of the image */
+/* .carousel-text {
+  position: absolute;
+  top: 10%; 
+  left: 20px;
+  color: white;
+  z-index: 2;
+  text-align: left;
+  width: 100%;
+  padding: 20px;
+} */
+
+.carousel h1 {
+  font-size: 2.5rem; /* Adjust font size */
+  line-height: 1.2;
+}
+
+/* Add responsive behavior for smaller screens */
+@media (max-width: 768px) {
+  .carousel-text {
+    top: 5%; /* Adjust for smaller screens */
+    left: 10px;
+    padding: 10px;
+  }
+
+  .carousel h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Different animations */
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Apply specific animation classes */
+.text-slide-left {
+  animation: slideInLeft 1.5s ease-in-out forwards;
+}
+
+.text-slide-right {
+  animation: slideInRight 1.5s ease-in-out forwards;
+}
+
+.text-fade-in {
+  animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+.text-zoom-in {
+  animation: zoomIn 1.5s ease-in-out forwards;
+}
