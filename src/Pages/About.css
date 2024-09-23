@@ -1,0 +1,39 @@
+/* AboutBsb.css */
+
+/* Gradient background for the banner */
+body{
+      font-family: 'montserratsemi_bold';
+}
+.about-banner {
+  background: linear-gradient(to right, red, orange, green);
+  color: white;
+}
+
+/* Padding for the section */
+.about-banner {
+  /* padding: 100px 0; */
+  height: 140px;
+  padding-top: 12px;
+}
+
+/* Breadcrumb style */
+.breadcrumb {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.breadcrumb span {
+  font-weight: bold;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .about-banner {
+    padding: 50px 0;
+  }
+
+  .breadcrumb {
+    font-size: 16px;
+  }
+}

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./Carosul.css";
-import image1 from "../../assect/Banner/ban_1622717186_129192.jpg";
-import image2 from "../../assect/Banner/ban_1622717209_421586.jpg";
-import image3 from "../../assect/Banner/ban_1622717227_271582.jpg";
+import image1 from "../../assect/Banner/Austrlia.jpg";
+import image2 from "../../assect/Banner/Canada.jpg";
+import image3 from "../../assect/Banner/UK.jpg";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -11,17 +11,17 @@ const Carousel = () => {
   const slides = [
     {
       image: `url(${image1})`,
-      text: "Want to Study in Canada from Bangladesh?",
+      text: "Want to Study in Austrlia from Bangladesh?",
       animationClass: "text-slide-left",
     },
     {
       image: `url(${image2})`,
-      text: "Want to Study in UK from Bangladesh?",
+      text: "Want to Study in Canda from Bangladesh?",
       animationClass: "text-fade-in",
     },
     {
       image: `url(${image3})`,
-      text: "Want to Study in USA from Bangladesh?",
+      text: "Want to Study in UK from Bangladesh?",
       animationClass: "text-zoom-in",
     },
   ];
