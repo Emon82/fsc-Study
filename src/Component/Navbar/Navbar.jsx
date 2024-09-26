@@ -1,8 +1,8 @@
-import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
+import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 
 const NavbarComponent = () => {
   return (
@@ -45,71 +45,71 @@ const NavbarComponent = () => {
             </NavDropdown>
 
             <NavDropdown title="Study Abroad" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/study-abroad">
                 Why Study Abroad
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/guid-study-abroad">
                 FSC Guide to Study Abroad
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/benifit-study-abroad">
                 Study Abroad Benefits
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/faq-study-abroad">
                 Study Abroad FAQs
               </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Find a Course" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/choose-course">
                 How to choose course?
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/find-university">
                 Find a University
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/university-ranking">
                 University Ranking
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/scholarship">
                 Scholarships
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/ielts-score">
                 IELTS Score
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link as={Link} to="#">
+            <Nav.Link as={Link} to="/explore-country">
               Explore Countries
             </Nav.Link>
 
             <NavDropdown title="Living Abroad" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/study-trip">
                 Study Tips
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/what-to-pack">
                 What to Pack
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/dealing">
                 Dealing with Stress
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/networking">
                 Networking and Socialising
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/developing">
                 Developing your Skills
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/managing-money">
                 Managing Money
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/job-seeking">
                 Job Seeking Tips
               </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Gallery" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/photo-gellary">
                 Image Gallery
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/">
+              <NavDropdown.Item as={Link} to="/vedio-gellary">
                 Video Gallery
               </NavDropdown.Item>
             </NavDropdown>

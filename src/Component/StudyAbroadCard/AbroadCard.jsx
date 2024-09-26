@@ -28,7 +28,7 @@ function AboardCard() {
   ];
 
   return (
-    <div className="container">
+    <div className="container py-3">
       <div className="row">
         {cardData.map((card, index) => (
           <div

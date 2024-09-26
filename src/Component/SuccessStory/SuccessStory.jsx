@@ -27,7 +27,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="container">
+    <div className="container py-4">
       <div className="row">
         {cardData.map((card, index) => (
           <div className="col-lg-4 col-md-6 col-sm-12 mb-4" key={index}>
