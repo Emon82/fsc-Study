@@ -16,7 +16,7 @@ function FounderCheifInfo() {
 
       <div className="about-section py-5 bg-light ">
         <div className="row justify-content-center">
-          <div className="col-md-10 col-lg-8"> 
+          <div className="col-md-10 col-lg-8">
             <div className="card border-0 shadow">
               <div className="card-body p-4">
                 <div className="row align-items-center">
@@ -28,7 +28,7 @@ function FounderCheifInfo() {
                       A K M Ahmedul Islam Babu
                     </h2>
                     <p className="text-muted small mb-3">
-                      FSC Global Network & Founder and Chairman, FSC-Cambrian
+                      FSC & Founder and Chairman, FSC-Cambrian
                       Education Group Vice President, Eastern European
                       Bangladesh Chamber of Commerce & Industry Founder Member,
                       Latin America Bangladesh Chamber of Commerce & Industry
@@ -65,39 +65,38 @@ function FounderCheifInfo() {
                 <div className="row align-items-center">
                   <div className="col-md-12 text-center text-md-start">
                     <p className="text-muted small mb-3">
-                      FSC Global Network is a sister concern of a renowned
-                      education group, “FSC-Cambrian Education Group” of
-                      Bangladesh which is very successful in education
-                      consultancy and student recruitment for higher study in
-                      abroad. It is the leading company in Bangladesh, provides
-                      all kinds of necessary services for abroad education in 32
-                      countries including USA, Canada, Australia, UK, Germany
-                      etc. According to the statistics every year some of one
-                      million students pass HSC (Higher Secondary Certificate,
-                      Grade 12 equivalent) from different Colleges. FSC-Cambrian
-                      Education Group helps interested students to complete
-                      their higher education in home and abroad and feel more
-                      trustworthy as it is their own institute. FSC is the
-                      trusted organization by the students and guardians for our
-                      excellent services. We offer continually free counseling
-                      at local colleges and universities, arranging and
-                      sponsoring different educational events and programs. As a
-                      result, yearly approximately 20,000 students visit our
-                      office where 2000 students successfully enroll for abroad
-                      study. FSC Global Network dedicated to provide the total
-                      education services with the motto “One stop solution for
-                      higher education at home and abroad.” We are expert,
-                      efficient and committed to arrange successful enrollment
-                      in highly demandable disciplines in any university in any
-                      country desired by the students. We hope information of
-                      this profile would be more conducive to the students who
-                      are trying to enroll in foreign universities also for our
-                      valued global partners. I acknowledge my heartiest thanks
-                      to all who are working hard with us and specially involved
-                      in preparing this profile. Specially many thanks to the
-                      Executive Director, FSC Global Network Advocate Ln. Kh.
-                      Salima Rowshan who worked sincerely and took the lead for
-                      our future bright students. Thanks with best Regards
+                      FSC is a sister concern of the esteemed
+                      FSC-Cambrian Education Group in Bangladesh, a leader in
+                      education consultancy and student recruitment for higher
+                      studies abroad. As the premier company in Bangladesh, we
+                      provide a comprehensive range of services for studying
+                      abroad in 32 countries, including the USA, Canada,
+                      Australia, the UK, Germany, and more. Each year,
+                      approximately one million students complete their HSC
+                      (Higher Secondary Certificate, Grade 12 equivalent) from
+                      various colleges. FSC-Cambrian Education Group supports
+                      students in pursuing higher education both domestically
+                      and internationally, earning their trust as their own
+                      institution. We are a reliable organization for students
+                      and guardians, known for our exceptional services. We
+                      offer free counseling at local colleges and universities,
+                      organize and sponsor various educational events and
+                      programs. Consequently, around 20,000 students visit our
+                      office annually, with 2,000 successfully enrolling in
+                      study programs abroad. FSC is dedicated to
+                      providing comprehensive educational services under the
+                      motto, “One-Stop Solution for Higher Education at Home and
+                      Abroad.” We are experts in arranging successful
+                      enrollments in highly sought-after disciplines across
+                      universities in various countries. We hope this profile
+                      will be beneficial to students seeking to enroll in
+                      foreign universities and to our valued global partners. I
+                      would like to extend my heartfelt thanks to everyone
+                      working diligently with us, especially Advocate Ln. Kh.
+                      Salima Rowshan, the Executive Director of FSC Global
+                      Network, who has sincerely led our efforts for the
+                      brighter future of our students. Thank you, with best
+                      regards.
                     </p>
                   </div>
                 </div>
@@ -106,7 +105,7 @@ function FounderCheifInfo() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

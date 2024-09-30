@@ -21,7 +21,7 @@ const Home = () => {
         Event
       </h2>
       <Event />
-      <Progress />
+      {/* <Progress /> */}
       <h2 style={{ textAlign: "center", padding: "15px", margin: "10px" }}>
         Study Abroad Destinations  
       </h2>

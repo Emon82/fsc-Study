@@ -19,21 +19,22 @@ const Collboration = () => {
           <div className="col-12 ">
             <h2 className="section-title">Strengths and Assets</h2>
             <p className="section-text">
-              The FSC Global Network has been formed on a solid ground of
-              management support with a long term vision. Through our service to
-              the Bangladeshi student’ community for the last 26 years with a
-              sound reputation and high success rates, the FSC Global Network
-              has reached the leading position in the country.
+              The FSC is built on a strong foundation of management support and
+              long-term vision. With over 26 years of dedicated service to the
+              Bangladeshi student community, we have established a sound
+              reputation and high success rates, positioning the FSC as a leader
+              in the country.
             </p>
             <p className="section-text">
-              It is member of many national and international professional
-              organizations and FACD-CAB (Foreign Admission and Career
-              development Consultants Association of Bangladesh. The chief
-              executive of FSC Global Network, Ln. M.K. Bashar PMJF was the
-              founder president of FACD-CAB. This is the only GOVT. authorized
-              association of the students’ consultancy firms in Bangladesh. It
-              is a member of the FBCCI (Federation of Bangladesh Chambers of
-              Commerce and Industry).
+              We are proud members of several national and international
+              professional organizations, including FACD-CAB (Foreign Admission
+              and Career Development Consultants Association of Bangladesh), the
+              only government-authorized association for student consultancy
+              firms in the country. Our chief executive, Md.Fazlul Ahmed ,
+              served as the founder president of FACD-CAB. Additionally, we are
+              affiliated with the FBCCI (Federation of Bangladesh Chambers of
+              Commerce and Industry), further enhancing our credibility and
+              network in the field of education consultancy.
             </p>
 
             <ol className="section-text">
@@ -93,30 +94,30 @@ const Collboration = () => {
           <div className="col-12">
             <h2 className="section-title">Professional Collaboration</h2>
             <p className="section-text">
-              Since 1993, the FSC Global Network has moved forward by focusing
-              on its aspiration, values and vision. It has established itself as
-              the market leader by sending thousands of students to the eminent
-              universities/ colleges/ institutes across Asia, Europe, USA,
-              Canada, Australia, New Zealand and other countries of the world.
-              Our commitment and foresight for the best has enabled us to
-              achieve a wide exposure and create goodwill among our clients. Use
-              of latest communication, extensive travel to different countries,
-              worldwide contacts, partnership, informative seminars and
-              participating in some of the world's leading educational
-              expositions have propelled to the peak of success. After crossing
-              the 26 years landmark, we are going to embark on a growth plan
-              that will transform our organization into a center of excellence.
-              We love to thank our valued customers, partners and well-wishers
-              for their continuous supports. We value their continued
-              association with us. The FSC Global Network always represents a
-              trustworthy and ethical leadership. Our values have led us to
-              sustain for more than twenty six years and will continue to drive
-              us in the right direction in the future.
+              Since 1993, FSC has consistently progressed by emphasizing its
+              aspirations, values, and vision. We have established ourselves as
+              the market leader, successfully sending thousands of students to
+              prestigious universities, colleges, and institutes across Asia,
+              Europe, the USA, Canada, Australia, New Zealand, and other
+              countries worldwide. Our commitment to excellence and
+              forward-thinking approach has earned us significant goodwill and a
+              strong reputation among our clients. Our success has been fueled
+              by utilizing the latest communication technologies, extensive
+              travel, and building worldwide partnerships. We actively
+              participate in informative seminars and some of the world's
+              leading educational expositions, which have contributed to our
+              prominent position in the industry. As we celebrate over 26 years
+              of service, we are excited to embark on a growth plan aimed at
+              transforming our organization into a center of excellence. We
+              extend our heartfelt thanks to our valued customers, partners, and
+              well-wishers for their unwavering support. Their continued
+              association is invaluable to us. FSC is committed to maintaining
+              trustworthy and ethical leadership. Our core values have guided us
+              for over 26 years, and we are confident they will continue to
+              steer us in the right direction in the future.
             </p>
           </div>
         </div>
-
-       
       </div>
       <Footer />
     </div>

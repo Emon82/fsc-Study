@@ -3,13 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import logo from '../../assect/fsc logo 2-01.png';
 
 const NavbarComponent = () => {
   return (
     <Navbar bg="light" expand="lg" fixed="top" className="custom-navbar">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          Fsc Study
+          <img  src={logo} alt=""  />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -36,12 +37,12 @@ const NavbarComponent = () => {
               {/* <NavDropdown.Item as={Link} to="/">
                 Recognition and Validation
               </NavDropdown.Item> */}
-              <NavDropdown.Item as={Link} to="/">
+              {/* <NavDropdown.Item as={Link} to="/">
                 Awards
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/">
                 Sister Concerns
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
             </NavDropdown>
 
             <NavDropdown title="Study Abroad" id="basic-nav-dropdown">

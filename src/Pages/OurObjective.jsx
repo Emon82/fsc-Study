@@ -15,16 +15,16 @@ function OurObjective() {
           <div className="col-12 ">
             <h2 className="section-title">Objectives</h2>
             <p className="section-text">
-              We strongly believe that education is a fundamental right and
-              everyone should have access to quality higher education. Education
-              is the best option of investment for the families and the nation.
-              It is the only means of human resources development to meet the
-              upcoming challenges.
+              We firmly believe that education is a fundamental right, and
+              everyone deserves access to quality higher education. Education is
+              not only the best investment for families and nations but also the
+              most effective way to develop human resources to meet future
+              challenges.
             </p>
             <p className="section-text">
-              Serve and assist students to upgrade themselves as standard as a
-              global citizen achieving higher education from renowned
-              international universities.
+              Our mission is to serve and guide students, helping them elevate
+              themselves to the standards of global citizens by obtaining higher
+              education from prestigious international universities.
             </p>
           </div>
         </div>
@@ -34,12 +34,14 @@ function OurObjective() {
           <div className="col-12">
             <h2 className="section-title">Targets</h2>
             <p className="section-text">
-              Continuous fulfillment of growing demands of our clients and
-              partners, specific annual target of FSC Global Network is that
-              20,000 students visit our office who seek admission in foreign
-              universities. 70% of them (14,000) will be eligible and will open
-              their files at FSC Global Network office and 40% of (5,600)
-              students enroll in foreign universities and institutions.
+              To continuously meet the growing demands of our clients and
+              partners, FSC has set a specific annual target: we aim for 20,000
+              students to visit our office seeking admission to foreign
+              universities. Out of these, we anticipate that 70% (14,000
+              students) will qualify and initiate their applications at our
+              office. Ultimately, we project that 40% (5,600 students) will
+              successfully enroll in various foreign universities and
+              institutions.
             </p>
           </div>
         </div>
@@ -49,10 +51,11 @@ function OurObjective() {
           <div className="col-12">
             <h2 className="section-title">Values</h2>
             <p className="section-text">
-              Equal services, treatment and respect for all our clients and
-              partners irrespective of their class, country, and position.
-              Honesty, the highest level of transparency and confidentiality for
-              our clients and parents at all levels of our operations.
+              We are committed to providing equal services, treatment, and
+              respect to all our clients and partners, regardless of their
+              class, country, or position. Our principles emphasize honesty, the
+              highest level of transparency, and confidentiality for our clients
+              and their families throughout all aspects of our operations.
             </p>
           </div>
         </div>
@@ -62,19 +65,19 @@ function OurObjective() {
           <div className="col-12">
             <h2 className="section-title">Policy of Excellence</h2>
             <p className="section-text">
-              The FSC Global Network policy is to achieve sustainable and
-              profitable growth by providing services, which consistently
-              satisfy the needs and expectations of its customers. At FSC, we
-              strive to deliver the best services with the most competitive
-              rates. We are committed to customers’ satisfaction through
-              continuous improvement.
+              The FSC policy is centered around achieving sustainable and
+              profitable growth by consistently providing services that meet the
+              needs and expectations of our customers. At FSC, we are dedicated
+              to delivering top-notch services at the most competitive rates,
+              with a strong commitment to customer satisfaction through ongoing
+              improvement.
             </p>
             <p className="section-text">
-              We are determined to improve BQMS (FSC Quality Management System).
-              Each staff of FSC Global Network is responsible for delivering
-              quality work, which results in a continuously improving working
-              environment by adopting a system that reflects the competence of
-              the company.
+              We are focused on enhancing the BQMS (FSC Quality Management
+              System). Each staff member at FSC is accountable for delivering
+              high-quality work, contributing to a continuously improving work
+              environment by implementing a system that showcases the company's
+              competence.    
             </p>
           </div>
         </div>

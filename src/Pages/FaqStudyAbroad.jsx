@@ -13,81 +13,96 @@ function FaqStudyAbroad() {
         <div className="row">
           {/* Left Column - Text Content */}
           <div className="col-md-7">
-            <h2 style={{ color: "darkblue" }}>
+            <h2 className="section-title" style={{ color: "darkblue" }}>
               Know About Study Abroad: Frequently Asked Questions (FAQs)
             </h2>
-            <p>
-              Lots of questions raised while taking the decision of studying
-              abroad. Its a life changing decision that can build an
-              individuals’ life to properity. Some common queries about studying
-              abroad are:
+            <p className="section-text">
+              Deciding to study abroad is a life-changing choice that can
+              significantly enhance an individual's prospects and opportunities.
+              Here are some common questions and answers regarding studying
+              abroad:
             </p>
 
-            <h4 style={{ color: "darkblue" }}>Why should I study abroad?</h4>
-            <p>
-              Study in foreign country opens opportunity of multicultural
-              diversification. As a result, students can get the opportunity in
-              a wide professional field. Lots of career options get enable for
-              the students because of the vast academic programs offered by
-              universities globally.
+            <h4 className="section-title" style={{ color: "darkblue" }}>
+              Why should I study abroad?
+            </h4>
+            <p className="section-text">
+              Studying in a foreign country provides opportunities for
+              multicultural exposure and diversification. It allows students to
+              engage in a wide range of professional fields, opening up numerous
+              career options due to the diverse academic programs offered by
+              universities around the world.
             </p>
 
-            <h4 style={{ color: "darkblue" }}>
+            <h4 className="section-title" style={{ color: "darkblue" }}>
               How do I choose the right study abroad program?
             </h4>
-            <p>
-              Selecting the right program depends on students’ academic goals,
-              interests, and preferences. Students first need to research
-              universities to get the suitable one for the student in term of
-              program availability, expense and career options.
+            <p className="section-text">
+              Choosing the right program should be based on your academic goals,
+              interests, and personal preferences. Start by researching
+              universities to find the best fit in terms of program
+              availability, costs, and potential career opportunities.
             </p>
 
-            <h4 style={{ color: "darkblue" }}>Is studying abroad expensive?</h4>
-            <p>
-              The cost of studying abroad varies widely depending on the
-              country, program, and lifestyle choices. Some universities can be
-              expensive interns of country and programs. Scholarships and other
-              financial options are available for qualified students for smooth
-              academic journey.
+            <h4 className="section-title" style={{ color: "darkblue" }}>
+              Is studying abroad expensive?
+            </h4>
+            <p className="section-text">
+              The cost of studying abroad can vary significantly based on the
+              country, program, and individual lifestyle choices. Some
+              universities may have high tuition fees, but there are
+              scholarships and financial aid options available to help qualified
+              students make their academic journey more affordable.
             </p>
 
-            <h4 style={{ color: "darkblue" }}>
+            <h4 className="section-title" style={{ color: "darkblue" }}>
               How do a student can apply for a student visa?
             </h4>
-            <p>
-              The process for obtaining a student visa varies by country.
-              Typically, you'll need to provide proof of acceptance to an
+            <p className="section-text">
+              The process for obtaining a student visa differs by country.
+              Generally, you'll need to provide proof of acceptance from an
               accredited institution, financial statements, a valid passport,
-              and sometimes, evidence of language proficiency. Consult the
-              embassy or consulate website of your chosen destination for
-              specific requirements.
+              and sometimes evidence of language proficiency. It's best to
+              consult the embassy or consulate website of your chosen
+              destination for specific requirements.
             </p>
 
-            <h4 style={{ color: "darkblue" }}>What about language barriers?</h4>
-            <p>
+            <h4 className="section-title" style={{ color: "darkblue" }}>
+              What about language barriers?
+            </h4>
+            <p className="section-text">
               Language proficiency requirements depend on the program and
-              destination. Many universities offer courses in English, but some
-              may require language proficiency tests like TOEFL or IELTS. Other
-              language programs also available to improve students skills.
+              destination. Many universities offer courses in English, while
+              others may require language proficiency tests such as TOEFL or
+              IELTS. Additionally, there are language programs available to help
+              improve students' language skills before or during their studies.
             </p>
 
-            <h4 style={{ color: "darkblue" }}>
+            <h4 className="section-title" style={{ color: "darkblue" }}>
               Can I work while studying abroad?
             </h4>
-            <p>
-              In many countries international students can work part-time while
-              studying. most countries accept 20 hours part-time work for
-              international students. Living cost can easily be earn with this.
+            <p className="section-text">
+              In many countries, international students are allowed to work
+              part-time while studying. Most countries permit students to work
+              up to 20 hours per week, which can help cover living costs.
             </p>
 
-            <h4 style={{ color: "darkblue" }}>
+            <h4 className="section-title" style={{ color: "darkblue" }}>
               How do I find accommodation abroad?
             </h4>
-            <p>
-              Most universities offer accommodation options for international
-              students called dormitories. There is also shared apartments
-              available for students near universities called off-campus housing
-              or home-stays.
+            <p className="section-text">
+              Most universities provide accommodation options for international
+              students, such as dormitories. Additionally, students can explore
+              shared apartments or off-campus housing options, including
+              homestays, to find suitable living arrangements near their
+              universities.
+            </p>
+
+            <p className="section-text">
+              {" "}
+              This FAQ aims to provide essential information to help prospective
+              students navigate the process of studying abroad and make informed
+              decisions.
             </p>
           </div>
 
@@ -95,8 +110,10 @@ function FaqStudyAbroad() {
           <div className="col-md-5">
             <div className="card p-4 shadow-sm">
               <div className="" style={{ color: "darkblue" }}>
-                <h4>Interested in studying abroad with FSC?</h4>
-                <p>
+                <h4 className="section-title">
+                  Interested in studying abroad with FSC?
+                </h4>
+                <p className="section-text">
                   Enter your details below and we'll call you back when it suits
                   you.
                 </p>
@@ -104,7 +121,7 @@ function FaqStudyAbroad() {
 
               <form>
                 <div className="mb-3">
-                  <label htmlFor="fullName" className="form-label">
+                  <label htmlFor="fullName" className="form-label section-text">
                     Full Name
                   </label>
                   <input
@@ -117,7 +134,10 @@ function FaqStudyAbroad() {
                 </div>
 
                 <div className="mb-3">
-                  <label htmlFor="phoneNumber" className="form-label">
+                  <label
+                    htmlFor="phoneNumber"
+                    className="form-label section-text"
+                  >
                     Phone Number
                   </label>
                   <input
@@ -130,7 +150,7 @@ function FaqStudyAbroad() {
                 </div>
 
                 <div className="mb-3">
-                  <label htmlFor="email" className="form-label">
+                  <label htmlFor="email" className="form-label section-text">
                     Email
                   </label>
                   <input
@@ -143,10 +163,17 @@ function FaqStudyAbroad() {
                 </div>
 
                 <div className="mb-3">
-                  <label htmlFor="destination" className="form-label">
+                  <label
+                    htmlFor="destination"
+                    className="form-label section-text"
+                  >
                     Your preferred study destination
                   </label>
-                  <select className="form-select" id="destination" required>
+                  <select
+                    className="form-select section-text"
+                    id="destination"
+                    required
+                  >
                     <option>Please Select Destination</option>
                     <option value="usa">USA</option>
                     <option value="uk">UK</option>
@@ -156,7 +183,7 @@ function FaqStudyAbroad() {
                 </div>
 
                 <div className="mb-3">
-                  <label htmlFor="message" className="form-label">
+                  <label htmlFor="message" className="form-label section-text">
                     Message
                   </label>
                   <textarea
@@ -167,7 +194,10 @@ function FaqStudyAbroad() {
                   ></textarea>
                 </div>
 
-                <button type="submit" className="btn btn-warning w-100">
+                <button
+                  type="submit"
+                  className="btn btn-warning w-100 section-text"
+                >
                   Submit Now
                 </button>
               </form>

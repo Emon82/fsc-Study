@@ -14,96 +14,82 @@ function Services() {
           <div className="col-12 ">
             <h2 className="section-title">For Partner Universities</h2>
             <p className="section-text">
-              Since 1993, BSB Global Network has been a recognized leader in
-              global higher education services. We provide different services
-              and facilities such as:
+              Since 1993, FSC has established itself as a leading provider of
+              global higher education services. We offer a wide range of
+              services and facilities, including:
             </p>
             <ol className="section-text">
               <li>
-                Organizing spot admission, seminars, and workshops on behalf of
-                our foreign partner institutions regularly in the capital city
-                and other district towns.
-              </li>
-              <li>Maintaining liaison with foreign institutes and students.</li>
-              <li>Distributing upgrade information among the students.</li>
-              <li>Campaigning for the best promotion at the local market.</li>
-              <li>Assisting with advertising and marketing.</li>
-              <li>
-                Conducting market research on behalf of international
-                universities, colleges, and institutes.
-              </li>
-              <li>An exclusive travel consultancy.</li>
-              <li>Processing Spouse, Business, and Visit Visas.</li>
-              <li>Providing tour packages.</li>
-              <li>Air ticketing (Domestic and International).</li>
-              <li>Hotel reservation services.</li>
-              <li>Travel and insurance services.</li>
-              <li>Offering free transportation around the city.</li>
-              <li>Providing free office space.</li>
-              <li>Providing free seminar space.</li>
-              <li>Offering free digital marketing services.</li>
-              <li>Offering free SMS services.</li>
-              <li>
-                BSB’s sister concern, Marketing & Expo Management Company,
-                arranges International Education Fairs.
+                Regularly organizing spot admissions, seminars, and workshops on
+                behalf of our foreign partner institutions in the capital and
+                various district towns.
               </li>
               <li>
-                Handling marketing, publication, advertisement, and promotional
-                events.
+                Maintaining strong relationships with foreign institutions and
+                students, ensuring seamless communication and support.
               </li>
               <li>
-                Regular students studying at FSC Cambrian Education Group.
-              </li>
-              <li>Family and friends of existing students.</li>
-              <li>Good references for good services delivered.</li>
-              <li>
-                Giant Education group everywhere, building a strong positive
-                reputation.
+                Distributing up-to-date information among students to keep them
+                informed about educational opportunities.
               </li>
               <li>
-                High-quality services delivered by staff and officers of
-                FSC-Cambrian Education Group.
+                Campaigning for effective promotion in the local market and
+                assisting with advertising and marketing efforts.
               </li>
               <li>
-                We market year-round and at all levels of education at our
-                different institutes.
+                Conducting comprehensive market research on behalf of
+                international universities, colleges, and institutes.
               </li>
               <li>
-                We have well-equipped premises and highly experienced teaching
-                staff.
+                Providing exclusive travel consultancy services, including
+                processing spouse, business, and visit visas, as well as
+                offering tour packages.
               </li>
               <li>
-                A team of highly qualified experts and professional staff who
-                are trained regularly to stay abreast of the latest education
-                systems and opportunities around the globe.
+                Facilitating air ticketing (both domestic and international),
+                hotel reservations, and comprehensive travel and insurance
+                services.
               </li>
               <li>
-                We have introduced a “One stop solution” integrated quality
-                service system.
-              </li>
-              <li>We have high success rates.</li>
-              <li>
-                Students sent by us who are studying in foreign universities are
-                successful and have bright careers both at home and abroad.
+                Offering free transportation around the city for our clients and
+                students.
               </li>
               <li>
-                We are efficient in managing operations and ready to undertake
-                any risk and challenge to launch new programs with existing and
-                new partners.
+                {" "}
+                Providing free office space and seminar facilities to support
+                educational events.
               </li>
               <li>
-                We have a solid base of financial strength, such as the FSC
-                Global Network office located in our own premises. Cambrian
-                campuses, including the Cambrian International Study Center and
-                Cambrian International Language Institute, are built on our own
-                land in the heart of the capital city of Bangladesh.
+                Delivering free digital marketing and SMS services to enhance
+                outreach.
               </li>
             </ol>
-            
+
+            <p className="section-text">
+              Our services include high-quality delivery by our dedicated staff
+              and officers at FSC-Cambrian Education Group. We market
+              educational opportunities year-round across various levels at our
+              different institutes, equipped with state-of-the-art facilities
+              and highly experienced teaching staff. Our team consists of
+              qualified experts and professionals who receive regular training
+              to stay updated on the latest education systems and opportunities
+              globally. We have introduced a "One-Stop Solution" integrated
+              quality service system, ensuring high success rates for students.
+              Students who have been sent by us to study at foreign universities
+              have gone on to achieve successful and fulfilling careers both at
+              home and abroad. We pride ourselves on efficiently managing
+              operations and are prepared to embrace any risks and challenges
+              associated with launching new programs with existing and new
+              partners. Our financial strength is robust, highlighted by the FSC
+              Global Network office situated in our own premises. The Cambrian
+              campuses, including the Cambrian International Study Center and
+              Cambrian International Language Institute, are also built on our
+              own land in the heart of the capital city of Bangladesh, further
+              solidifying our commitment to providing quality education and
+              services.
+            </p>
           </div>
         </div>
-
-        
       </div>
       <Footer />
     </div>

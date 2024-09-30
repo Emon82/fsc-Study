@@ -45,7 +45,7 @@ const Carousel = () => {
         <div className="carousel-text">
           <div className={`row ${slides[currentIndex].animationClass}`}>
             <div className="col-md-6">
-              <h1>{slides[currentIndex].text}</h1>
+              <h1 style={{marginTop:"15px"}}>{slides[currentIndex].text}</h1>
             </div>
           </div>
         </div>
